@@ -1,11 +1,7 @@
-$list_to_sort: (anna, carrie, felicia, john, kim, zoe);
+$list_to_sort: (anna carrie felicia john kim zoe);
 
 // Sort the list
 $list_sorted: sort($list_to_sort);
 
-// Join the sorted list items with "|"
-$list_as_string: join($list_sorted, '|');
-
-// Print the sorted list as a string in the debug output
-@debug $list_as_string;
-
+// Print the sorted list in the debug output
+@debug $list_sorted;
