@@ -1,8 +1,7 @@
 $list_to_sort: (anna carrie felicia john kim zoe);
-$list_to_sort: (bob anna sylvain john ludo colin patrick);
+$list: (bob anna sylvain john ludo colin patrick);
 
-// Sort the list
-$list_sorted: sort($list_to_sort);
+$list_sorted: sort($list);
 
 // Print the sorted list in the debug output
 @debug $list_sorted;
